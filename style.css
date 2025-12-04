@@ -17,6 +17,14 @@
 html, body {
   height: 100%;
 }
+/* Animasi RGB khusus LOGO saja */
+@keyframes rgbGlow {
+  0%   { box-shadow: 0 0 18px #ff0000, 0 0 40px #ff0000; border-color:#ff0000; }
+  25%  { box-shadow: 0 0 18px #00ff00, 0 0 40px #00ff00; border-color:#00ff00; }
+  50%  { box-shadow: 0 0 18px #0000ff, 0 0 40px #0000ff; border-color:#0000ff; }
+  75%  { box-shadow: 0 0 18px #ff00ff, 0 0 40px #ff00ff; border-color:#ff00ff; }
+  100% { box-shadow: 0 0 18px #ff0000, 0 0 40px #ff0000; border-color:#ff0000; }
+}
 
 body {
   margin: 0;
@@ -183,3 +191,4 @@ body {
 .icon-btn:hover {
   filter: drop-shadow(0 0 8px rgba(200,255,0,0.8)); /* neon glow */
 }
+

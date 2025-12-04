@@ -68,6 +68,10 @@ body {
   background: linear-gradient(180deg, #faff00, #ccff00); /* neon yellow */
 }
 
+ /* 🔥 Tambahkan baris ini untuk membuat logo menyala */
+  animation: rgbGlow 4s linear infinite;
+}
+
 .avatar img {
   width: 100%;
   height: 100%;
@@ -191,4 +195,5 @@ body {
 .icon-btn:hover {
   filter: drop-shadow(0 0 8px rgba(200,255,0,0.8)); /* neon glow */
 }
+
 
